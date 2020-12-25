@@ -1,0 +1,24 @@
+using System;
+
+namespace Day002
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Your Name :");
+
+            //reading Console
+            string Name = Console.ReadLine();
+            string SecondName = Console.ReadLine();
+
+            //Writing Console
+
+            //concatenation
+           // Console.WriteLine("My Name Is "+Name);
+
+            //place holder syntax
+            Console.WriteLine("My Name is {1} {0}", Name,SecondName);//0 1 2 3
+        }
+    }
+}
